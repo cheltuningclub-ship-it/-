@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chel Tuning Club — Premium ECU remapping, performance tuning, and automotive customization in Cheltenham." />
+  <title>Chel Tuning Club — Performance Redefined</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23ff3d00' rx='20' width='100' height='100'/><text y='.9em' x='50%' text-anchor='middle' font-size='60' fill='white'>C</text></svg>" />
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true">
+    <div class="scroll-progress-bar"></div>
+  </div>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark">C</span>
+        Chel Tuning
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero with mouse parallax layers -->
+    <section class="hero" id="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-bg-layer hero-bg-layer--back" data-parallax-depth="0.08">
+          <img
+            src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1920&q=80&auto=format&fit=crop"
+            alt=""
+            width="1920"
+            height="1080"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </div>
+        <div class="hero-bg-layer hero-bg-layer--mid" data-parallax-depth="0.15">
+          <img
+            src="https://images.unsplash.com/photo-1583121274602-3e2820c50d2d?w=1920&q=80&auto=format&fit=crop"
+            alt=""
+            width="1920"
+            height="1080"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </div>
+        <div class="hero-bg-layer hero-bg-layer--front"></div>
+        <div class="hero-grid" data-parallax-depth="0.03" data-parallax-axis="both"></div>
+      </div>
+
+      <div class="hero-content container">
+        <div data-reveal="fade">
+          <span class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Cheltenham's Premier Tuning Club
+          </span>
+        </div>
+        <h1 class="hero-title">
+          <span data-reveal>Performance</span><br />
+          <span class="accent" data-reveal data-reveal-delay="100">Redefined</span>
+        </h1>
+        <p class="hero-description" data-reveal data-reveal-delay="200">
+          ECU remapping, dyno tuning, and bespoke modifications for enthusiasts who demand more from every drive.
+        </p>
+        <div class="hero-actions" data-reveal data-reveal-delay="300">
+          <a href="#contact" class="btn btn-primary" data-magnetic>Book a Session</a>
+          <a href="#services" class="btn btn-outline" data-magnetic>Explore Services</a>
+        </div>
+        <div class="hero-stats" data-stagger="120">
+          <div data-reveal>
+            <div class="hero-stat-value" data-counter="500" data-counter-suffix="+">0</div>
+            <div class="hero-stat-label">Cars Tuned</div>
+          </div>
+          <div data-reveal>
+            <div class="hero-stat-value" data-counter="15" data-counter-suffix="yr">0</div>
+            <div class="hero-stat-label">Experience</div>
+          </div>
+          <div data-reveal>
+            <div class="hero-stat-value" data-counter="98" data-counter-suffix="%">0</div>
+            <div class="hero-stat-label">Satisfaction</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero-scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- Stats bar -->
+    <section class="stats-bar" aria-label="Key statistics">
+      <div class="container">
+        <div class="stats-grid" data-stagger="100">
+          <div data-reveal="scale">
+            <div class="stat-item-value" data-counter="40" data-counter-suffix="%">0</div>
+            <div class="stat-item-label">Avg. Power Gain</div>
+          </div>
+          <div data-reveal="scale">
+            <div class="stat-item-value" data-counter="12" data-counter-suffix="mo">0</div>
+            <div class="stat-item-label">Warranty</div>
+          </div>
+          <div data-reveal="scale">
+            <div class="stat-item-value" data-counter="24" data-counter-suffix="h">0</div>
+            <div class="stat-item-label">Turnaround</div>
+          </div>
+          <div data-reveal="scale">
+            <div class="stat-item-value" data-counter="50" data-counter-suffix="+">0</div>
+            <div class="stat-item-label">Brands Supported</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services with tilt cards -->
+    <section class="services" id="services">
+      <div class="container">
+        <header class="services-header">
+          <p class="section-label" data-reveal="left">What We Do</p>
+          <h2 class="section-title" data-reveal="left" data-reveal-delay="100">Precision Tuning Services</h2>
+          <p class="section-subtitle" data-reveal="left" data-reveal-delay="200">
+            From factory-fresh to track-ready — every modification is calibrated on our in-house dyno for maximum performance and reliability.
+          </p>
+        </header>
+
+        <div class="services-grid" data-stagger="80">
+          <article class="service-card" data-tilt="10" data-reveal="scale">
+            <div class="tilt-glare"></div>
+            <div class="service-icon">⚡</div>
+            <h3 class="service-title">ECU Remapping</h3>
+            <p class="service-desc">Unlock hidden horsepower with custom ECU maps tailored to your engine, fuel, and driving style.</p>
+          </article>
+          <article class="service-card" data-tilt="10" data-reveal="scale">
+            <div class="tilt-glare"></div>
+            <div class="service-icon">📊</div>
+            <h3 class="service-title">Dyno Tuning</h3>
+            <p class="service-desc">Real-world power measurement and fine-tuning on our 4WD rolling road dyno for verified gains.</p>
+          </article>
+          <article class="service-card" data-tilt="10" data-reveal="scale">
+            <div class="tilt-glare"></div>
+            <div class="service-icon">🔧</div>
+            <h3 class="service-title">Performance Upgrades</h3>
+            <p class="service-desc">Intake, exhaust, turbo, and intercooler packages installed and mapped as a complete system.</p>
+          </article>
+          <article class="service-card" data-tilt="10" data-reveal="scale">
+            <div class="tilt-glare"></div>
+            <div class="service-icon">🛡️</div>
+            <h3 class="service-title">DPF &amp; EGR Solutions</h3>
+            <p class="service-desc">Professional emissions solutions with full documentation and warranty coverage.</p>
+          </article>
+          <article class="service-card" data-tilt="10" data-reveal="scale">
+            <div class="tilt-glare"></div>
+            <div class="service-icon">🏁</div>
+            <h3 class="service-title">Track Preparation</h3>
+            <p class="service-desc">Suspension setup, brake upgrades, and safety systems for competitive motorsport.</p>
+          </article>
+          <article class="service-card" data-tilt="10" data-reveal="scale">
+            <div class="tilt-glare"></div>
+            <div class="service-icon">💨</div>
+            <h3 class="service-title">Custom Exhaust</h3>
+            <p class="service-desc">Bespoke stainless and titanium exhaust systems — hand-crafted sound, engineered flow.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scroll parallax banner -->
+    <section class="parallax-banner" aria-label="Quote">
+      <div class="parallax-banner-bg" data-scroll-parallax="0.4">
+        <img
+          src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1920&q=80&auto=format&fit=crop"
+          alt=""
+          width="1920"
+          height="1080"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="parallax-banner-overlay"></div>
+      <div class="parallax-banner-content">
+        <blockquote class="parallax-banner-quote" data-reveal="fade">
+          "Every car has a soul. We just help it speak louder."
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Gallery with mouse spotlight reveal -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <header class="gallery-header">
+          <p class="section-label" data-reveal="right">Our Work</p>
+          <h2 class="section-title" data-reveal="right" data-reveal-delay="100">Built, Not Bought</h2>
+          <p class="section-subtitle" data-reveal="right" data-reveal-delay="200">
+            Move your cursor over each build to reveal the details beneath.
+          </p>
+        </header>
+
+        <div class="gallery-grid" data-stagger="60">
+          <figure class="gallery-item" data-spotlight data-spotlight-radius="200" data-reveal="scale">
+            <img
+              src="https://images.unsplash.com/photo-1544636331-e26879cd4f9d?w=1200&q=80&auto=format&fit=crop"
+              alt="Modified sports car"
+              width="1200"
+              height="800"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="spotlight-overlay"></div>
+            <figcaption class="spotlight-detail">
+              <p class="gallery-item-label">Stage 3 Build</p>
+              <p class="gallery-item-title">Porsche 911 GT3 — 520hp</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-spotlight data-reveal="scale">
+            <img
+              src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80&auto=format&fit=crop"
+              alt="Tuned coupe"
+              width="800"
+              height="600"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="spotlight-overlay"></div>
+            <figcaption class="spotlight-detail">
+              <p class="gallery-item-label">ECU Remap</p>
+              <p class="gallery-item-title">BMW M4 — +85hp</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-spotlight data-reveal="scale">
+            <img
+              src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&q=80&auto=format&fit=crop"
+              alt="Performance sedan"
+              width="800"
+              height="600"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="spotlight-overlay"></div>
+            <figcaption class="spotlight-detail">
+              <p class="gallery-item-label">Full Build</p>
+              <p class="gallery-item-title">Audi RS6 — 700hp</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-spotlight data-reveal="scale">
+            <img
+              src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80&auto=format&fit=crop"
+              alt="Luxury sports car"
+              width="800"
+              height="600"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="spotlight-overlay"></div>
+            <figcaption class="spotlight-detail">
+              <p class="gallery-item-label">Track Prep</p>
+              <p class="gallery-item-title">Mercedes AMG GT</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-spotlight data-reveal="scale">
+            <img
+              src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&q=80&auto=format&fit=crop"
+              alt="Electric performance car"
+              width="800"
+              height="600"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="spotlight-overlay"></div>
+            <figcaption class="spotlight-detail">
+              <p class="gallery-item-label">Custom Exhaust</p>
+              <p class="gallery-item-title">VW Golf R — Stage 2</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-spotlight data-reveal="scale">
+            <img
+              src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=800&q=80&auto=format&fit=crop"
+              alt="Classic muscle car"
+              width="800"
+              height="600"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="spotlight-overlay"></div>
+            <figcaption class="spotlight-detail">
+              <p class="gallery-item-label">Restomod</p>
+              <p class="gallery-item-title">Ford Mustang — 450hp</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process" id="process">
+      <div class="container">
+        <header>
+          <p class="section-label" data-reveal>How It Works</p>
+          <h2 class="section-title" data-reveal data-reveal-delay="100">Four Steps to More Power</h2>
+        </header>
+        <div class="process-steps" data-stagger="120">
+          <div class="process-step" data-reveal="left">
+            <h3 class="process-step-title">Consultation</h3>
+            <p class="process-step-desc">Tell us your goals. We assess your vehicle and recommend the optimal upgrade path.</p>
+          </div>
+          <div class="process-step" data-reveal="left">
+            <h3 class="process-step-title">Baseline Dyno</h3>
+            <p class="process-step-desc">We measure your car's current output as a reference point for every change.</p>
+          </div>
+          <div class="process-step" data-reveal="left">
+            <h3 class="process-step-title">Tuning &amp; Install</h3>
+            <p class="process-step-desc">Hardware fitted, software flashed, and maps refined in real time on the dyno.</p>
+          </div>
+          <div class="process-step" data-reveal="left">
+            <h3 class="process-step-title">Delivery</h3>
+            <p class="process-step-desc">Full dyno printout, warranty documentation, and a test drive to feel the difference.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="contact">
+      <div class="container">
+        <div class="cta-card" data-parallax-depth="0.02">
+          <div class="cta-card-content">
+            <h2 class="cta-title" data-reveal="scale">Ready to Unleash Your Car?</h2>
+            <p class="cta-desc" data-reveal="scale" data-reveal-delay="100">
+              Book a free consultation and dyno assessment. No obligation, just honest advice from enthusiasts who live and breathe tuning.
+            </p>
+            <a href="mailto:chel.tuning.club@gmail.com" class="btn btn-primary" data-magnetic data-reveal="scale" data-reveal-delay="200">
+              Get in Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark">C</span>
+        Chel Tuning Club
+      </a>
+      <ul class="footer-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="mailto:chel.tuning.club@gmail.com">Contact</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2026 Chel Tuning Club. Cheltenham, UK.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
